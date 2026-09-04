@@ -1,0 +1,20 @@
+/*This pool adds the bottom piece to the village well*/
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "minecraft:village/common/well_bottoms"
+    },
+    "elements": [
+       {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "minecraft:village/common/well_bottom",
+        
+        "projection": "rigid"
+      },
+      "weight": 1
+    }
+    ]
+  }
+}

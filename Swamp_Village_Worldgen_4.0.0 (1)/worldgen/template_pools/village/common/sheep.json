@@ -1,0 +1,33 @@
+/*This pool spawns sheep.. yeah shocking*/
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "minecraft:village/common/sheep"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/sheep_1",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/sheep_2",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:empty_pool_element"
+        },
+        "weight": 5
+      }
+    ]
+  }
+}

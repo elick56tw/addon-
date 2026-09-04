@@ -1,0 +1,49 @@
+/*This template pool is seperate from the animal.json pool, but serves a similar purpose*/
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "minecraft:village/common/butcher_animals"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/cows_1",
+          "projection": "rigid"
+        },
+        "weight": 7
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/pigs_1",
+          "projection": "rigid"
+        },
+        "weight": 7
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/sheep_1",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/sheep_2",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:empty_pool_element"
+        },
+        "weight": 5
+      }
+    ]
+  }
+}

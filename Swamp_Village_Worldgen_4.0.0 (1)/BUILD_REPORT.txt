@@ -1,0 +1,24 @@
+SWAMP VILLAGE WORLDGEN 4.0.0
+
+Correct namespace format:
+Template Pool identifier:
+repurposed_structures:villages/swamp/<pool>
+
+Structure location:
+villages/swamp/<pool>/<structure>
+
+No mystructure: prefix is used.
+No minecraft: prefix is used on structure location.
+
+Worldgen structure:
+repurposed_structures:village_swamp
+
+Structure set:
+repurposed_structures:swamp_village_set
+
+Counts:
+houses=30
+streets=17
+town_centers=3
+terminators=4
+decor=3

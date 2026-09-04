@@ -1,0 +1,19 @@
+/*This pool spawns cats through out the village*/
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "minecraft:village/common/cats"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/cat_white",
+          "projection": "rigid"
+        },
+        "weight": 7
+      }
+    ]
+  }
+}

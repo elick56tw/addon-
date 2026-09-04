@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Swamp Village Worldgen",
+    "description": "Swamp Village using the supplied Plains Village Worldgen template and swamp structures.",
+    "uuid": "95ae21ff-3a6e-4f2d-9ece-e6c5f398407c",
+    "version": [
+      4,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      21,
+      20
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ac94853e-cf2c-445e-8a07-41be03bef635",
+      "version": [
+        4,
+        0,
+        0
+      ]
+    }
+  ]
+}

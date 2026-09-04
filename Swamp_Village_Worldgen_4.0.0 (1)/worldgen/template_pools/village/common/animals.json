@@ -1,0 +1,89 @@
+/*Template pool used by some jigsaw blocks inside of our structure. This one mainly just places some animal structures for animal pens, butcher houses, etc.*/
+{
+  "format_version": "1.21.20",
+  "minecraft:template_pool": {
+    "description": {
+      "identifier": "minecraft:village/common/animals"
+    },
+    "elements": [
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/cows_1",
+          "projection": "rigid"
+        },
+        "weight": 7
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/pigs_1",
+          "projection": "rigid"
+        },
+        "weight": 7
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/horses_1",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/horses_2",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/horses_3",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/horses_4",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/horses_5",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/sheep_1",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:single_pool_element",
+          "location": "minecraft:village/common/animals/sheep_2",
+          "projection": "rigid"
+        },
+        "weight": 1
+      },
+      {
+        "element": {
+          "element_type": "minecraft:empty_pool_element"
+        },
+        "weight": 5
+      }
+    ]
+  }
+}

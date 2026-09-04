@@ -1,0 +1,35 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:jigsaw": {
+    "description": {
+      "identifier": "repurposed_structures:village_swamp"
+    },
+    "biome_filters": [
+      {
+        "any_of": [
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "swamp"
+          },
+          {
+            "test": "has_biome_tag",
+            "operator": "==",
+            "value": "mangrove_swamp"
+          }
+        ]
+      }
+    ],
+    "step": "surface_structures",
+    "start_pool": "repurposed_structures:villages/swamp/town_centers",
+    "max_depth": 5,
+    "start_height": {
+      "type": "constant",
+      "value": {
+        "absolute": 1
+      }
+    },
+    "heightmap_projection": "world_surface",
+    "terrain_adaptation": "beard_thin"
+  }
+}
